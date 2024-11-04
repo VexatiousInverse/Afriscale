@@ -2,16 +2,15 @@
   "name": "my-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/VexatiousInverse/Afriscale.git",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "homepage": "https://github.com/VexatiousInverse/AfriscaleWebsite.git"
-
+    "preview": "vite preview"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
